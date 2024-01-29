@@ -16,13 +16,19 @@ namespace Log_Flo
 
         protected void btnAddCycle_Click(object sender, EventArgs e)
         {
-
+            //call the data sources's insert parameters
+            //assign them the input values from the add Flo panel
             sqlFloCycle.InsertParameters["Description"].DefaultValue = txtDescription.Text;
+            sqlFloCycle.InsertParameters["Date"].DefaultValue = txtDateFormat.Text;
+            //ask the data source to insert
+            sqlFloCycle.Insert();
+            //lastly, clear entry form
+            txtDescription.Text = " ";
         }
 
         protected void calCycle_SelectionChanged(object sender, EventArgs e)
         {
-            
+            txtDateFormat.Text=calCycle.SelectedDate.ToShortDateString();
         }
     }
 }
