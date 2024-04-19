@@ -8,5 +8,6 @@ The main features of this implementation are:
 **RESOURCES USED**
 - https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.gridview?view=netframework-4.8.1
 - https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.sqldatasource?view=netframework-4.8.1
+- https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
   
 Note: This is still a current project that has not been completed yet. Will continuously update as project grows.  
