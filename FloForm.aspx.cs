@@ -18,12 +18,11 @@ namespace Log_Flo
         {
             //call the data sources's insert parameters
             //assign them the input values from the add Flo panel
-            sqlFloCycle.InsertParameters["Description"].DefaultValue = txtDescription.Text;
+            sqlFloCycle.InsertParameters["Description"].DefaultValue = ddlDesc.SelectedValue;
             sqlFloCycle.InsertParameters["Date"].DefaultValue = txtDateFormat.Text;
             //ask the data source to insert
             sqlFloCycle.Insert();
-            //lastly, clear entry form
-            txtDescription.Text = " ";
+            Response.Redirect("~/ViewLog.aspx");
         }
 
         protected void calCycle_SelectionChanged(object sender, EventArgs e)

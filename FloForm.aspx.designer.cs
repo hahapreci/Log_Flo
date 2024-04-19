@@ -24,6 +24,15 @@ namespace Log_Flo
         protected global::System.Web.UI.WebControls.SqlDataSource sqlFloCycle;
 
         /// <summary>
+        /// sqlFloLog control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource sqlFloLog;
+
+        /// <summary>
         /// plNewCycle control.
         /// </summary>
         /// <remarks>
@@ -51,13 +60,13 @@ namespace Log_Flo
         protected global::System.Web.UI.WebControls.TextBox txtDateFormat;
 
         /// <summary>
-        /// txtDescription control.
+        /// ddlDesc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtDescription;
+        protected global::System.Web.UI.WebControls.DropDownList ddlDesc;
 
         /// <summary>
         /// btnAddCycle control.
