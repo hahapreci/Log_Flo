@@ -14,3 +14,8 @@ The main features of this implementation are:
 Additional Enhancements that can be made:
 - Edit/delete functionality.
 - Dynamic pages with highly interactive features.
+![image](https://github.com/hahapreci/Log_Flo/assets/125583819/c5496239-a4bc-43ff-8947-35519c2ceb3d)
+![image](https://github.com/hahapreci/Log_Flo/assets/125583819/4dc1f486-c3cd-4b91-a8a8-a5d5b21fbef2)
+![image](https://github.com/hahapreci/Log_Flo/assets/125583819/8e317d5d-6b72-4ae0-b582-cacd5e3d2adb)
+
+
